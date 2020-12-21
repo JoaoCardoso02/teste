@@ -10,5 +10,10 @@ export default {
             { charset: 'utf-8' }
         ]
     },
-    target: 'static'
+    target: 'static',
+    serverMiddleware: [
+        {
+            path: '/', handler: '~/middleware/index.js'
+        }
+    ]
 }
