@@ -1,0 +1,14 @@
+{
+  "name": "testnext",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt": "^2.14.12",
+    "vue-router": "^3.4.9",
+    "vue-styled-components": "^1.6.0"
+  }
+}
